@@ -1,0 +1,77 @@
+headersOrigin = "config"
+redirectsOrigin = "config"
+plugins = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\kk\\makkah-banquet"
+publishOrigin = "config"
+base = "C:\\Users\\kk\\makkah-banquet"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[headers]]
+for = "/*"
+
+[headers.values]
+X-Frame-Options = "SAMEORIGIN"
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Cache-Control = "public, max-age=86400"
+
+[[headers]]
+for = "/css/*"
+
+[headers.values]
+Cache-Control = "public, max-age=604800"
+
+[[headers]]
+for = "/js/*"
+
+[headers.values]
+Cache-Control = "public, max-age=604800"
+
+[[headers]]
+for = "/images/*"
+
+[headers.values]
+Cache-Control = "public, max-age=2592000"
+
+[[redirects]]
+from = "/home"
+to = "/"
+status = 301.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
+
+[[redirects]]
+from = "/book"
+to = "/booking.html"
+status = 301.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
