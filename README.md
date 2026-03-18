@@ -25,60 +25,9 @@ Karachi's premier luxury banquet hall website — featuring AI-powered customer 
 | AI Model    | Groq API + Llama 4             |
 | Hosting     | Vercel (frontend), Render (AI) |
 
-## Run Locally
+## Author
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/midhatnayab7-creator/makkah-banquet.git
-   cd makkah-banquet
-   ```
-
-2. **Install Python dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set your Groq API key**
-   ```bash
-   export GROQ_API_KEY="your-key-here"
-   ```
-
-4. **Start the AI backend**
-   ```bash
-   python ai_server.py
-   ```
-   The AI server runs on `http://localhost:5001`.
-
-5. **Open the website**
-
-   Open `index.html` in your browser, or use a local server:
-   ```bash
-   python -m http.server 8080
-   ```
-   Then visit `http://localhost:8080`.
-
-## Project Structure
-
-```
-makkah-banquet/
-├── index.html          # Home page
-├── services.html       # Services offered
-├── menu.html           # Food & catering menu
-├── gallery.html        # Photo gallery
-├── video.html          # Video showcase
-├── booking.html        # Event booking form
-├── contact.html        # Contact information
-├── css/style.css       # Stylesheet
-├── js/main.js          # Frontend logic & chat widget
-├── images/             # Media assets
-├── ai_server.py        # Noor AI backend (Flask)
-├── api/chat.py         # Vercel serverless function
-├── requirements.txt    # Python dependencies
-├── vercel.json         # Vercel config
-├── netlify.toml        # Netlify config
-├── sitemap.xml         # SEO sitemap
-└── robots.txt          # Crawler rules
-```
+**Developed by:** [Midhat Nayab](https://github.com/midhatnayab7-creator) | [LinkedIn](https://www.linkedin.com/in/midhat-nayab-25a6603a3) | [Email](mailto:midhatnayab7@gmail.com)
 
 ## License
 
